@@ -8,10 +8,21 @@ div{
 
 p {
   font-family: Helvetica;
+  color: #DABEBE;
 }
 
 .half {
+  float: left;
+  margin: 18px;
 }
 
 .full{
+  clear: both;
+  margin: 0 auto;
+  background-color: blue;
+  border: 5px dashed yellow;
+}
+
+.full p {
+  text-align: center;
 }
