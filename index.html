@@ -3,28 +3,42 @@
     <head>
       <title>Example</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" href="assets/styles/style.css" type="text/css">
+
       <!-- Do not add `link` tags unless you know what you are doing -->
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-      <link rel="stylesheet" href="assets/styles/style.css">
 
       <!-- Do not add `script` tags unless you know what you are doing -->
       <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body class="container-fluid">
-      <div class="half">
-        <p>I'm a box!</p>
+
+      <div class="box full header">
+        <p>header</p>
       </div>
-      <div class="half">
-        <p>I'm a box!</p>
-      </div>
-      <div class="half">
-        <p>I'm a box!</p>
-      </div>
-      <div class="full">
-        <p>I'm also a box!</p>
-        <p>Just a little different from those others. Cos I'm sexier than those
-        other boxes</p>
+
+      <div class="wrapper">
+        <div class="box one-third">
+          <p>1/3 column</p>
+        </div>
+        <div class="box one-third">
+          <p>1/3 column</p>
+        </div>
+        <div class="box one-third">
+          <p>1/3 column</p>
+        </div>
+        <div class="box two-third">
+          <p>2/3 column</p>
+        </div>
+        <div class="box one-third">
+          <p>1/3 column</p>
+        </div>
+        <div class="clearfix"></div>
+        <div class="box full footer">
+          <p>full width</p>
+        </div>
       </div>
     </body>
 </html>
